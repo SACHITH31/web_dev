@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mainContainer p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.semanticContainer p{
+    margin-bottom: 15px;
+}
