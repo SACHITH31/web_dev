@@ -91,9 +91,21 @@
       </form>
 
       <label for="password">Enter the Password: </label>
-      <input type="password" required title="password" id="password" name="password">
+      <input type="password" required title="password" id="password" name="password" autocomplete="on">
+      <!--
+        autocomplete values for password input
+        -------------------------------------------------
+        Value              | Meaning
+        -------------------|------------------------------
+        on                 | Browser can autofill
+        off                | No autofill
+        current-password   | Existing password (login)
+        new-password       | New password (signup)
+      -->
 
-      
+
+      <br>
+      <br>
     </main>
   </body>
 </html>
