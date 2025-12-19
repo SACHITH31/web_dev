@@ -1,18 +1,110 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>CSS Intro</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body style="margin-top: 20px; font-family: sans-serif;">
-        <p style="text-align: center; font-size: 30px;">Welcome  To CSS.</p>
-        
-        <div class="inlineCssContainer" style=" margin-top: 20px;">
-            <span style="padding-left: 10px; text-decoration: underline;" class="inlineCss">INLINE CSS:</span>
-            <span>
-              Inline CSS is a way of applying CSS styles directly inside an HTML element using the style attribute.
-              It affects only that single element.
-            </span>
-        </div>
+<head>
+    <title>CSS Documentation</title>
 
-    </body>
+    <!-- INTERNAL CSS -->
+    <style>
+        body {
+            margin-top: 20px;
+            font-family: sans-serif;
+        }
+
+        .section {
+            margin-top: 25px;
+            padding-left: 10px;
+        }
+
+        .heading {
+            text-decoration: underline;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .syntax {
+            background-color: #f2f2f2;
+            padding: 5px;
+            display: inline-block;
+            font-family: monospace;
+            margin-top: 5px;
+        }
+
+        .example {
+            margin-top: 10px;
+            background-color: #fafafa;
+            padding: 10px;
+            border-left: 4px solid #333;
+        }
+    </style>
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <p style="text-align: center; font-size: 30px;">
+        Welcome To CSS
+    </p>
+
+    <!-- INLINE CSS SECTION -->
+    <div class="section">
+        <p class="heading">INLINE CSS:</p>
+        <p>
+            Inline CSS is a way of applying CSS styles directly inside a particular HTML element using the
+            <b>style</b> attribute. It affects only that single element.
+        </p>
+
+        <p class="syntax">style="property: value;"</p>
+
+        <div class="example">
+            &lt;p style="color: red; font-size: 18px;"&gt;Hello World&lt;/p&gt;
+        </div>
+    </div>
+    <br>
+    <hr>
+    <!-- INTERNAL CSS SECTION -->
+    <div class="section">
+        <p class="heading">INTERNAL CSS:</p>
+        <p>
+            Internal CSS is written inside the <b>&lt;style&gt;</b> tag within the
+            <b>&lt;head&gt;</b> section of the HTML document.
+            It affects only that single HTML page.
+        </p>
+        
+        <p class="syntax">
+            &lt;style&gt;<br>
+            &nbsp;&nbsp;p { color: blue; }<br>
+            &lt;/style&gt;
+        </p>
+        
+        <div class="example">
+            &lt;p&gt;This paragraph is styled using internal CSS&lt;/p&gt;
+        </div>
+    </div>
+    <br>
+    <hr>
+    
+    <!-- EXTERNAL CSS SECTION -->
+    <div class="section">
+        <p class="heading">EXTERNAL CSS:</p>
+        <p>
+            External CSS is written in a separate <b>.css</b> file and linked to the HTML document using
+            the <b>&lt;link&gt;</b> tag.
+            It is used to style multiple pages.
+        </p>
+        
+        <p class="syntax">
+            &lt;link rel="stylesheet" href="style.css"&gt;
+        </p>
+        
+        <div class="example">
+            /* style.css */ <br>
+            p { color: green; }
+        </div>
+    </div>
+    <br>
+    <hr>
+    
+</body>
 </html>
