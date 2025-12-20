@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.roughSketch p {
+    margin-top: 10px;
+    text-align: center;
+    color: #ff5733;
+    text-decoration: wavy; /* this navy won't work */
+    /* to get the wavy effect, we need to use text-decoration: {like either underline or overline} wavy; in addition */
+    text-decoration: underline wavy;
+}
+
+.roughSketch h2 {
+    font-family: serif;
+}
+.roughSketch h3 {
+    font-family: sans-serif;
+}
