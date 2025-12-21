@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+  </head>
+  <body>
+    <div>
+      <h1>CSS Selectors Overview</h1>
+      <p>
+        CSS selectors are patterns used to select the elements you want to
+        style. Here are some common types of selectors:
+      </p>
+
+      <h2>1. Element Selector</h2>
+      <p>The element selector selects all elements of a given type.</p>
+      <pre><code>
+p {
+    color: blue;
+}
+        </code></pre>
+
+      <h2>2. Class Selector</h2>
+      <p>
+        The class selector selects all elements with a specific class attribute.
+      </p>
+      <pre><code>
+.my-class {
+    font-size: 16px;
+}
+        </code></pre>
+
+      <h2>3. ID Selector</h2>
+      <p>
+        The ID selector selects a single element with a specific ID attribute.
+      </p>
+      <pre><code>
+#my-id {
+    background-color: yellow;
+}
+        </code></pre>
+
+      <h2>4. Attribute Selector</h2>
+      <p>
+        The attribute selector selects elements based on the presence or value
+        of an attribute.
+      </p>
+      <pre><code>
+input[type="text"] {
+    border: 1px solid black;
+}
+        </code></pre>
+
+      <h2>5. Pseudo-class Selector</h2>
+      <p>
+        The pseudo-class selector selects elements based on their state or
+        position.
+      </p>
+      <pre><code>
+a:hover {
+    color: red;
+}
+        </code></pre>
+      <h2>6. Descendant Selector</h2>
+      <p>
+        The descendant selector selects elements that are descendants of a
+        specified element.
+      </p>
+      <pre><code>
+div p {
+    margin-left: 20px;
+}
+        </code></pre>
+      <h2>7. Child Selector</h2>
+      <p>
+        The child selector selects elements that are direct children of a
+        specified element.
+      </p>
+      <pre><code>
+ul > li {
+    list-style-type: square;
+}
+        </code></pre>
+      <h2>8. Grouping Selector</h2>
+      <p>
+        The grouping selector allows you to apply the same styles to multiple
+        selectors.
+      </p>
+      <pre><code>
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+        </code></pre>
+      <h2>9. Universal Selector</h2>
+      <p>The universal selector selects all elements on the page.</p>
+      <pre><code>
+* {
+    box-sizing: border-box;
+}
+        </code></pre>
+    </div>
+  </body>
+</html>
