@@ -1,0 +1,21 @@
+ <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: black;
+        color: white;
+      }
+      .syntax {
+        background-color: #2c2c2c;
+        padding: 10px;
+        border-left: 5px solid #ccc;
+        font-family: monospace;
+        margin-top: 10px;
+      }
+      .syntax code {
+        color: #f8f8f2;
+      }
+      .syntax:hover {
+        background-color: #444;
+      }
+    </style>

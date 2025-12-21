@@ -32,8 +32,9 @@ CSS (Cascading Style Sheets) is a stylesheet language used to describe the prese
 4. **Cascading and Specificity**: CSS follows a set of rules to determine which styles are applied when multiple rules target the same element. 
 <!-- Cascading Defination:(in simple terms)-->
 - Cascading refers to the order of precedence in which styles are applied. Styles can come from different sources, such as user agent stylesheets, external stylesheets, internal stylesheets, and inline styles.
+- IN SIMPLE TERMS : **When multiple CSS rules apply to the same element**, the rule with the highest specificity takes precedence. **If two rules have the same specificity, the one that appears last in the CSS will be applied.**
 
-- Specificity is calculated based on the types of selectors used, and inline styles have the highest specificity.
+- **Specificity** is calculated based on the types of selectors used, and inline styles have the highest specificity.
 - Example of **Cascading and Specificity**:
    ```css
    /* This rule has low specificity */
