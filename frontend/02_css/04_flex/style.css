@@ -15,3 +15,22 @@ h1 {
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#child1, #child2, #child3, #child4 {
+    height: 200px;
+    width: 200px;
+}
+
+#child1 {
+    background-color: red;
+}
+#child2 {
+    background-color: gold;
+}
+#child3 {
+    background-color: green;
+}
+#child4 {
+    background-color: blue;
+}
+
