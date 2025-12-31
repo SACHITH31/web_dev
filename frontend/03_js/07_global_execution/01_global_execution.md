@@ -209,5 +209,3 @@ Hi
 > **Global Execution Context is the main environment where JavaScript starts executing your code.**
 
 ---
-
-✅ This entire file is written in **Markdown (.md)** and ready to use for notes, GitHub, or study.
