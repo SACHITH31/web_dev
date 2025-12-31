@@ -37,7 +37,13 @@ h1 {
 /* the parent should have the space to perform the ai or jc because if there is no space then where they can perform there actions?. so that's why we give some space to perform this operations(ai and jc) */
 .parent {
     height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#child1 {
+    flex-shrink: 1;
+    flex-wrap: nowrap;
 }

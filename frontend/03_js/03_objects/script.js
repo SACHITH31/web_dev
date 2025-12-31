@@ -20,6 +20,22 @@ let lastNameContainer = myObj['last-Name'] // bracket notation
 let keys = Object.keys(myObj)
 let values = Object.values(myObj)
 
+
+// to change the key in an object
+let user = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30
+};
+// 1. Read and assign to the new key
+user.userAge = user.age;
+// 2. Delete the old key
+delete user.age;
+console.log(user);
+// Output: { firstName: 'John', lastName: 'Doe', userAge: 30 }
+
+
+
 // to find the length of the objects
 console.log(Object.keys(myObj).length)
 
