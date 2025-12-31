@@ -9,6 +9,9 @@ let secondChar = userName[2]
 
 
 
+'abc'.includes('a') // returns true
+'abc'.indexOf('a') // returns 0
+
 // ❓ Properties vs Methods
 
 // 1️⃣ String Properties
