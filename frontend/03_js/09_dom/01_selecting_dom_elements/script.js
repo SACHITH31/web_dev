@@ -21,10 +21,12 @@ submitButton.addEventListener('click', () => {
     
     const userNameTag = document.createElement('p')
     userNameTag.setAttribute('class', 'userName')
+
     const passwordTag = document.createElement('p')
+    passwordTag.classList.add('password')
 
     userNameTag.innerText = userName.value
     passwordTag.innerText = password.value
 
-    showResults.append(userNameTag)
+    showResults.append(userNameTag, passwordTag)
 })
