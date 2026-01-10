@@ -62,3 +62,5 @@ const a = function () {
 }
 // a()
 setTimeout(a, 10000);
+
+const b = setTimeout(() => console.log(Math.floor(Math.random() + 1) *100), 4000)
