@@ -54,3 +54,11 @@ for (let i = 1; i <= 50; i++) {
 setTimeout(() => {
     console.log('settime-3')
 }, 0);
+
+// setTimeout(a, 0); // here this will throw error because we are calling a function before intialisation using the const which is declaring
+
+const a = function () {
+    console.log('Hello from a')
+}
+// a()
+setTimeout(a, 10000);
