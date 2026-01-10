@@ -30,7 +30,6 @@ console.log("Hello");
 
 👉 Bad user experience
 
-```
-“I’ll start the long work… but I won’t wait. I’ll come back later.”
-```
+> “I’ll start the long work… but I won’t wait. I’ll come back later.”
+
 **That idea = Asynchronous**
