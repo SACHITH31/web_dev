@@ -9,7 +9,21 @@ const fruits = ['banana', 'apple', 'mango', 'watermelon']
 //     console.log(fruit)
 // })
 
-fruits.forEach(function (fruit) {
-    console.log(fruit)
+// fruits.forEach(function (fruit) {
+//     console.log(fruit)
+// })
+
+
+fruits.forEach(function (fruit, i) {
+    console.log(fruit, i)
 })
 
+
+fruits.forEach(function (fruit, i, fruitsList) {
+    console.log(fruit, i, fruitsList)
+})
+
+// Note: we can pass 3 parameters 
+// 1st. to access each element
+// 2nd. to get the position
+// 3rd. will have the total list
