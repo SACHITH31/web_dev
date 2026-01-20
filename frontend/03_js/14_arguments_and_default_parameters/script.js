@@ -25,3 +25,9 @@ const add3 = () => { // WHEN WE CALL THIS THEN WE WILL GET THE ERROR AS THE ARGU
     console.log(arguments)
 }
 
+// DEFAULT PARAMETERS
+function a (b, c = false) { // this default parameters for all truthy values and but for some falsy values gets applicable those are
+                                // null, false, ''(at this time the output is displyed in string format) this are all applicable for default paramets
+                                // undefined is not applicable for default parameters
+    return b + c
+}
