@@ -79,3 +79,24 @@ function testDestructuringWithFunctions2 ({name, age}) {
     console.log(name, age)
 }
 testDestructuringWithFunctions2(userDetails)
+
+// destructuring with functions for arrays
+// method-1
+function testDestructuringWithArrays1 (coloursArray) {
+    // first color
+    const [colour1] = coloursArray
+    console.log(colour1) // red
+}
+testDestructuringWithArrays1(colours)
+
+// method-2
+function testDestructuringWithArrays2 ([a, b, c]) {
+    console.log(a, b, c)
+}
+testDestructuringWithArrays2(colours)
+
+// method-3
+function testDestructuringWithArrays3 ([a, b,,, d]) {
+    console.log(a, b, d)
+}
+testDestructuringWithArrays3(colours)
