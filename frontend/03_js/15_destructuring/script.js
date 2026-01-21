@@ -21,6 +21,8 @@ const [,,, color4, color5, color6] = colours
 
 
 
+// OBJECT DESTRUCTURING
+// IMPORTANT POINT: Object keys must match destructuring names — unless you rename them using key: newName.
 const userDetails = {
     'name': 'sachith',
     'age': 19,
@@ -58,3 +60,22 @@ const {address} = userDetails
 // method-2 another name of this method is called nested-level-destructuring
 const {address: {city} } = userDetails
 // console.log(city)
+
+
+
+// destructuring with functions for objects
+// method-1
+function testDestructuringWithFunctions1 (myObj) {
+    // console.log(myObj)
+    // for getting name and age from the object using the destructuring
+    const {name, age} = myObj
+    console.log(name, age)
+}
+testDestructuringWithFunctions1(userDetails)
+
+
+// method-2
+function testDestructuringWithFunctions2 ({name, age}) {
+    console.log(name, age)
+}
+testDestructuringWithFunctions2(userDetails)
