@@ -30,4 +30,31 @@ const userDetails = {
     }
 }
 
+// access the object elements without using the destructuring
+// const name1 = userDetails.name
+// const age = userDetails.age
+// console.log(name1, age)
 
+// using destructuring for objects
+const {name, age} = userDetails
+// console.log(name, age)
+
+// another way of destructuring the above objects by changing the variable name to userName, userAge
+// const {name: userName, age: userAge} = userDetails
+// console.log(userName, userAge)
+// console.log(name) // name is not defined
+
+// destructuring the nested objects
+// const {address} = userDetails
+// console.log(address) // {city: 'kurnool', state: 'andhra pradesh'}
+
+// if we want to get the city
+// method-1
+const {address} = userDetails
+// const {city} = address
+// console.log(city) // kurnool
+// but here we are declaring another unwanted variable
+
+// method-2 another name of this method is called nested-level-destructuring
+const {address: {city} } = userDetails
+// console.log(city)
