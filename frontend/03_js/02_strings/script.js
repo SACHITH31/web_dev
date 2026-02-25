@@ -6,7 +6,7 @@ let age = 20;
 let msg = `My age is ${age}`;
 
 let secondChar = userName[2]
-
+//console.log(userName[10000]) //undefined
 
 
 'abc'.includes('a') // returns true
@@ -30,3 +30,26 @@ let secondChar = userName[2]
 // str.toLowerCase()
 // ✔ These change / process the string
 // ✔ They are actions
+
+
+//STRING METHODS:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
