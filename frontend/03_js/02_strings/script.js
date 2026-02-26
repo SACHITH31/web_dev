@@ -34,11 +34,7 @@ let secondChar = userName[2]
 
 //STRING METHODS:
 
-
-
-
-
-
+// go to strings-images to see all the string methods.
 
 
 
