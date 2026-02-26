@@ -1,8 +1,8 @@
-## in this project we will learn the frontend(HTML, CSS, JS, REACTJS)
-## and backend is node-js 
-## and database is sql, monogodb
+- #### in this project we will learn the frontend(HTML, CSS, JS, REACTJS)
+- #### and backend is node-js 
+- #### and database is sql, monogodb
 
-### here we are going to learn everything in detail and in depth.
+#### here we are going to learn everything in detail and in depth.
 
 ## to use this repo in your device. follow this below steps:
 ```
