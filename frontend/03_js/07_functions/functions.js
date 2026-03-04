@@ -19,7 +19,7 @@ function returnSomething (randomStuff) {
     return randomStuff;
 }
 const temp1 = returnSomething('a') // returns a
-const temp2 = returnSomething(1) // returns a
+const temp2 = returnSomething(1) // returns 1
 
 
 function defaultParameters (userName = 'GUEST', age) {
