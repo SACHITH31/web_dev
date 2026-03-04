@@ -11,3 +11,12 @@ const joinedArray2 = [...nums1, ...nums2]
 const myName = 'sachith'
 const joinedArray3 = [...nums1, ...nums2, ...myName] // output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 's', 'a', 'c', 'h', 'i', 't', 'h']
 // console.log(joinedArray3[0]) // output: 1
+
+function add (...joinedArray) {
+    let sum = 0
+    for (let i = 0; i < arguments.length; i++) {
+        sum += arguments[i]
+    }
+    console.log(sum)
+}
+add(...joinedArray2)
