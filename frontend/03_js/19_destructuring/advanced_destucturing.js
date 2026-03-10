@@ -113,7 +113,6 @@ console.log(rest) // remaining properties
 
 /****************************************************************************************
 5️⃣ USING DESTRUCTURING IN LOOPS
-
 ****************************************************************************************/
 
 const users = [
@@ -129,7 +128,6 @@ for(const {name, age} of users){
 
 /****************************************************************************************
 6️⃣ DESTRUCTURING RETURN VALUES FROM FUNCTIONS
-
 ****************************************************************************************/
 
 function getUser(){
@@ -171,20 +169,17 @@ COMMON MISTAKE (IMPORTANT)
 ****************************************************************************************/
 
 const user2 = {
-    name: "Sachith"
+    name2: "Sachith"
 }
 
 const {name1} = user2
 
 console.log(name1) // undefined
 
-Why?
-
-Because property name is "name" not "name1"
-
-Correct way:
-
-const {name} = user2
+// Why?
+// Because property name2 is "name2" not "name1"
+// Correct way:
+const {name2} = user2
 
 
 /****************************************************************************************

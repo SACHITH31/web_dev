@@ -81,16 +81,16 @@ const {property1, property2} = object
 Example:
 ***************************************************************************************/
 
-const user = {
+const user12 = {
     name: "Sachith",
-    age: 19,
+    age1: 19,
     city: "Kurnool"
 }
 
-const {name, age, city} = user
+const {name, age1, city} = user
 
 console.log(name) // Sachith
-console.log(age)  // 19
+console.log(age1)  // 19
 console.log(city) // Kurnool
 
 

@@ -5,7 +5,6 @@ BROWSER OBJECT MODEL METHODS
 */
 
 // 1️⃣ location
-
 console.log(location.href)
 
 // OUTPUT:
@@ -13,7 +12,6 @@ console.log(location.href)
 
 
 // 2️⃣ history
-
 console.log(history.length)
 
 // OUTPUT:
@@ -22,7 +20,6 @@ console.log(history.length)
 
 
 // 3️⃣ innerHeight
-
 console.log(window.innerHeight)
 
 // OUTPUT:
@@ -31,7 +28,6 @@ console.log(window.innerHeight)
 
 
 // 4️⃣ innerWidth
-
 console.log(window.innerWidth)
 
 // OUTPUT:
@@ -40,7 +36,6 @@ console.log(window.innerWidth)
 
 
 // 5️⃣ open()
-
 var newWindow = window.open("https://www.google.com")
 
 // OUTPUT:
@@ -48,7 +43,6 @@ var newWindow = window.open("https://www.google.com")
 
 
 // 6️⃣ close()
-
 // This will close the window opened by JavaScript
 // newWindow.close()
 
@@ -57,7 +51,6 @@ var newWindow = window.open("https://www.google.com")
 
 
 // 7️⃣ resizeBy()
-
 // Increase window size by pixels
 // window.resizeBy(100,100)
 
@@ -67,7 +60,6 @@ var newWindow = window.open("https://www.google.com")
 
 
 // 8️⃣ resizeTo()
-
 // Set window to exact size
 // window.resizeTo(500,500)
 
@@ -76,7 +68,6 @@ var newWindow = window.open("https://www.google.com")
 
 
 // 9️⃣ moveTo()
-
 // Move window to exact screen position
 // window.moveTo(200,200)
 
@@ -85,7 +76,6 @@ var newWindow = window.open("https://www.google.com")
 
 
 // 🔟 moveBy()
-
 // Move window relative to current position
 // window.moveBy(100,100)
 
@@ -94,7 +84,6 @@ var newWindow = window.open("https://www.google.com")
 
 
 // 1️⃣1️⃣ scrollBy()
-
 window.scrollBy(0,200)
 
 // OUTPUT:
@@ -102,7 +91,6 @@ window.scrollBy(0,200)
 
 
 // 1️⃣2️⃣ scroll()
-
 window.scroll(0,300)
 
 // OUTPUT:
@@ -110,7 +98,6 @@ window.scroll(0,300)
 
 
 // 1️⃣3️⃣ scrollTo()
-
 window.scrollTo(0,500)
 
 // OUTPUT:
@@ -118,7 +105,6 @@ window.scrollTo(0,500)
 
 
 // 1️⃣4️⃣ print()
-
 // window.print()
 
 // OUTPUT:
@@ -126,7 +112,6 @@ window.scrollTo(0,500)
 
 
 // 1️⃣5️⃣ document
-
 console.log(document.title)
 
 // OUTPUT:
