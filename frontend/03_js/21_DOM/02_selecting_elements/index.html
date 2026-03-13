@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>selecting the elements</title>
-  <script defer src="script.js"></script>
+<meta charset="UTF-8">
+<title>DOM Selecting Elements - Detailed Learning File</title>
 </head>
-<body>
-    <h1>selecting the elements</h1>
-    <p id="sampleId">Hey this is p tag through id (#)</p>
 
-    <p class="sampleClass"> hey this is p tag through class (.)</p>
+<body>
+
+<!-- 
+==================================================================
+DOM SELECTING ELEMENTS PRACTICE PAGE
+==================================================================
+
+This HTML page is used to demonstrate how JavaScript selects
+different elements from the DOM.
+
+DOM = Document Object Model
+
+When a browser loads an HTML page, it converts the HTML
+structure into a tree-like object structure.
+
+JavaScript can access this structure using the "document" object.
+
+Example DOM structure for this page:
+
+document
+ └── html
+      └── body
+           ├── h1
+           ├── p
+           ├── div
+           ├── ul
+           │    ├── li
+           │    ├── li
+           │    └── li
+           └── button
+
+JavaScript will select these elements using different
+DOM selection methods.
+-->
+
+<h1 id="main-title">DOM Selection Learning</h1>
+
+<p class="description">
+This paragraph explains DOM selection methods.
+</p>
+
+<p class="description">
+This is another paragraph with the same class.
+</p>
+
+<!-- div container -->
+<div id="container">
+
+<h2 class="section-title">Fruits List</h2>
+
+<ul id="fruit-list">
+
+<li class="fruit">Apple</li>
+<li class="fruit">Banana</li>
+<li class="fruit">Orange</li>
+
+</ul>
+
+</div>
+
+<button id="btn">Click Me</button>
+
+<!-- linking JavaScript file -->
+<script src="script.js"></script>
+
 </body>
 </html>
