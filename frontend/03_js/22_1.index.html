@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DOM Text Properties Learning</title>
+</head>
+
+<body>
+
+<!--
+This HTML file is used to understand three important DOM properties:
+
+1. innerText
+2. textContent
+3. innerHTML
+
+These properties allow JavaScript to read or change the content inside HTML elements.
+
+In simple terms:
+
+JavaScript first selects an HTML element and then uses these properties
+to get or change the content inside that element.
+-->
+
+<h1 id="mainTitle">Learning DOM Text Properties</h1>
+
+<!--
+This paragraph will help us understand innerText.
+innerText returns only the visible text that the user can see on the webpage.
+-->
+
+<p id="visibleText">
+This text is visible to the user.
+</p>
+
+<!--
+This container includes both visible and hidden text.
+We will use this element to understand the difference between
+innerText and textContent.
+-->
+
+<div id="textExample">
+Hello User
+<span style="display:none">Hidden Message</span>
+</div>
+
+<!--
+This container contains HTML elements inside it.
+We will use it to demonstrate innerHTML.
+-->
+
+<div id="htmlBox">
+<p>This is a paragraph inside a div.</p>
+</div>
+
+<button id="runExample">Run Example</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
