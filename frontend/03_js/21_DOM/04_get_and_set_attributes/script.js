@@ -31,3 +31,9 @@ console.log(a.attributes.id.value) //sampleId
 // WITH GETATTRIBUTE
 console.log(a.getAttribute('id')) //sampleId
 console.log(a.getAttribute('id1')) //null
+
+
+// SETATTRIBUTE
+// syntax: variableName.setAttribute('attributeName', 'attributeValue')
+a.setAttribute('title', 'setted attribute')
+a.setAttribute('sample', 'sample attribute')
