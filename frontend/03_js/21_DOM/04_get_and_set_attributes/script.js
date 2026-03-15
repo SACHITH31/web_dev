@@ -19,3 +19,15 @@
 
 // common attributes: id, class, src, href, alt, title, style, type, placeholder, required, etc.....,,,,
 
+
+// WITHOUT USING THE GETATTRIBUTES
+const a = document.querySelector('#sampleId')
+console.dir(a)
+console.log(a.attributes) // NamedNodeMap {0: id, 1: class, 2: something, id: id, class: class, something: something, length: 3}
+console.log(a.attributes[0]) // id="sampleId"
+console.log(a.attributes[2]) // something="someThing"
+console.log(a.attributes.id.value) //sampleId
+
+// WITH GETATTRIBUTE
+console.log(a.getAttribute('id')) //sampleId
+console.log(a.getAttribute('id1')) //null
