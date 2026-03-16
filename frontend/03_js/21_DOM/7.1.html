@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DOM Traversal Learning</title>
+</head>
+
+<body>
+
+<!--
+This file demonstrates how JavaScript can move inside the DOM tree.
+
+DOM traversal means moving from one element to another element
+using relationships such as:
+
+parent
+children
+siblings
+
+HTML elements form a tree structure.
+
+Example structure of this page:
+
+body
+ └── div (container)
+      ├── h1
+      ├── p
+      ├── ul
+      │    ├── li
+      │    ├── li
+      │    └── li
+      └── button
+
+JavaScript can move up, down, or sideways in this tree.
+-->
+
+<div id="container">
+
+<h1 id="title">DOM Traversal Example</h1>
+
+<p id="info">
+This paragraph helps demonstrate parent element access.
+</p>
+
+<ul id="fruitList">
+
+<li class="fruit">Apple</li>
+<li class="fruit" id="banana">Banana</li>
+<li class="fruit">Orange</li>
+
+</ul>
+
+<button id="runTraversal">Run Traversal</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
