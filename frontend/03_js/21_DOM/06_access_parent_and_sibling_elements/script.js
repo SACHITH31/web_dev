@@ -23,3 +23,11 @@ const parent2Children = document.querySelector('.parent2').children
 console.log(parent2Children.length) // 0
 
 
+// to get the siblings we use:
+// 1. previousElementSibling // to get the previous element
+// 2. nextElementSibling // to get the next element
+const nextParent1 = document.querySelector('.parent1').nextElementSibling
+console.log(nextParent1.nextElementSibling) // null
+
+const nextParent2 = document.querySelector('.parent2').previousElementSibling
+console.log(nextParent2.previousElementSibling) // null
