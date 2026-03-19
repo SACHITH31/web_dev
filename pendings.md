@@ -4,3 +4,6 @@
 - call_stack
 - hoisting
 - lexical_and_global_scope
+
+- DOM
+    - node vs element (differences)
