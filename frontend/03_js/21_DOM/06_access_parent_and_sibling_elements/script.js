@@ -15,3 +15,11 @@ console.log(htmlParent2) // document
 
 
 
+// to get the childrens we use 'children'
+const bodyChildren = document.querySelector('body').children
+console.log(bodyChildren.length) // 4
+
+const parent2Children = document.querySelector('.parent2').children
+console.log(parent2Children.length) // 0
+
+
