@@ -1,3 +1,6 @@
+// we can remove through dev tools(in elements tab) also that is se below 
+// select an tag or anything click on it and press delete button in keyboard then we will that particular tag related data will get deleted..
+
 /*
 This file explains how to remove elements from the DOM.
 
