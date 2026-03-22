@@ -26,6 +26,25 @@ let afterBtn = document.getElementById("afterBtn")
 
 
 
+
+let sampleBtn = document.querySelector('.sampleBtn')
+
+sampleBtn.addEventListener('click', () => {
+    const experiment1 = document.createElement(true ?'small': 'p')
+    const experiment2 = document.createElement(Option ?'div': 'p')
+    console.log(Boolean(Option)) // true 
+    const experiment3 = document.createElement(false ? 'h1': 'small')
+    console.log(experiment1)
+    console.log(experiment2)
+    console.log(experiment3)
+
+    const div = document.createElement('div')
+    div.innerText = 'this is div'
+    container.append(div)
+})
+
+
+
 /*
 Function to create a new element
 
