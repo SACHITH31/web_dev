@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Event Bubbling & Capturing</title>
+</head>
+
+<body>
+
+<!--
+This file demonstrates how events move in the DOM.
+
+There are two phases:
+
+1. Capturing phase (top → down)
+2. Bubbling phase (bottom → up)
+
+We will use nested elements to see this clearly.
+-->
+
+<div id="outer" style="padding:40px;background-color:lightblue;">
+
+Outer Div
+
+<div id="middle" style="padding:40px;background-color:lightgreen;">
+
+Middle Div
+
+<button id="inner">Click Me</button>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
