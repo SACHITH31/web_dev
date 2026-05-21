@@ -5,3 +5,7 @@ step 1: click the 'v' icon
 step 2: select default profile
 step 3: click on the git bash
 step 4: terminate the current terminal and open new terminal then you will see the bash as default terminal
+
+Note:
+* bash is an script language and command line interpreter that is widely used in Unix-like operating systems. It provides a powerful and flexible environment for executing commands, running scripts, and managing system tasks. By setting bash as the default terminal, you can take advantage of its features and capabilities for your development work.
+* it is not an programming language but it is a command line interpreter that allows you to execute commands and run scripts. It is commonly used for automating tasks, managing files, and performing various system operations. While it is not a programming language in the traditional sense, it does have its own syntax and features that can be used to create powerful scripts and automate complex workflows.

@@ -45,3 +45,7 @@ Welcome to Node.js!
 ![echo command example](./assets/echo_1.png)
 
 ---
+- doing addition using echo command in git bash:
+![echo command example](./assets/echo_2.png)
+
+---
