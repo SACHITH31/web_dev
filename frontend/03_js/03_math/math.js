@@ -16,3 +16,4 @@
 
 // trunc - it is used to return the integer part only
 // ex: Math.trunc(12.22) // 12
+
