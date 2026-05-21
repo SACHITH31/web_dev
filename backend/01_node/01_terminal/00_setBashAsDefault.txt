@@ -1,0 +1,7 @@
+click  ctrl + `
+
+if you see bash as default then go with next file or else follow below steps to set the terminal as bash as default
+step 1: click the 'v' icon
+step 2: select default profile
+step 3: click on the git bash
+step 4: terminate the current terminal and open new terminal then you will see the bash as default terminal
