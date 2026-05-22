@@ -1,4 +1,4 @@
-## shell commands :(defination + examples)
+## shell commands :(definition + examples)
 ### 1. `echo`:
 The `echo` command is used to display a line of text or a variable's value in the terminal. It is commonly used for printing messages, debugging, and displaying the output of commands.
 #### Example:
@@ -42,10 +42,32 @@ Welcome to Node.js!
 ```
 ---
 - implementation of echo command in git bash: 
-![echo command example](./assets/echo_1.png)
+![echo command example](../assets/echo_1.png)
 
 ---
 - doing addition using echo command in git bash:
-![echo command example](./assets/echo_2.png)
+![echo command example](../assets/echo_2.png)
 
 ---
+
+- implementation of PROMPT STRINGS(PS) in git bash using echo:
+
+    - `The main use of PS variables is to customize terminal prompts.`
+
+    - They control:
+        - What terminal shows
+        - How the prompt looks
+        - Extra information in prompt
+
+| Variable | Use                            |
+| -------- | ------------------------------ |
+| `PS1`    | Main terminal prompt           |
+| `PS2`    | Prompt for incomplete commands |
+| `PS3`    | Used in shell menus            |
+| `PS4`    | Used while debugging scripts   |
+
+
+---
+
+![echo prompt strings example](../assets/echo_ps.png)
+- here prompt strings are used to customize the appearance of the terminal prompt. In the above example is: `SACHITH@DESKTOP-F0N8OVB MINGW64 ~/Desktop/022/web_dev/backend (main) $ `

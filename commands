@@ -1,0 +1,348 @@
+[33mcommit 1c61a301c0144c479d99d36b4d3d6c4a87460c66[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Fri May 22 19:40:39 2026 +0530
+
+    created the commands folder and moved all the terminal commands into it
+
+[33mcommit 0efbbbf0e168a3bd1618220f9368b9fcfcc991c3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Fri May 22 19:22:05 2026 +0530
+
+    completed rm notes
+
+[33mcommit 61c53dcfca28f4e845242743116b27fc00fc5bc0[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:55:11 2026 +0530
+
+    completed rm notes
+
+[33mcommit deaf2d39d2626a3fd00fe53ec671e13f77638ec7[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:54:37 2026 +0530
+
+    completed mv notes
+
+[33mcommit f995968b1bd85d87d249a5e2ceda2552befcc235[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:53:48 2026 +0530
+
+    completed cp notes
+
+[33mcommit cf40b3b70a3caa4758329964243bbd615f850675[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:52:56 2026 +0530
+
+    complted touch notes
+
+[33mcommit 02d8b9af8aa44cf2496b805616a853181bac08a2[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:52:25 2026 +0530
+
+    completed ls notes
+
+[33mcommit 5827e8363b606b619fe534c90976afbe741669e8[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:51:40 2026 +0530
+
+    completed cd  notes
+
+[33mcommit a83178db287558662815a18037a4054ed51bba56[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:50:58 2026 +0530
+
+    completed whoami notes
+
+[33mcommit 1767be05118e47b3b2ff261f72247dd2e377090e[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:47:02 2026 +0530
+
+    completed the pwd notes
+
+[33mcommit 68b3139fbc7f2313b3d68d48272af94c3f57a94a[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 22:32:40 2026 +0530
+
+    added files
+
+[33mcommit 7c00efca8b9ba6f8476d037453bdba46c588aede[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 20:09:22 2026 +0530
+
+    adds the numbers using echo
+
+[33mcommit aeaaeaaa6ea71aaecb9aeba22ee9689b18d726ea[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 20:02:38 2026 +0530
+
+    added about the echo cmd
+
+[33mcommit d3133ee27a9a2f0a9c122691367aebc65e186f02[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 19:40:25 2026 +0530
+
+    added the sql part
+
+[33mcommit 7ae5abd2a0e88807d3f2fc24e12bbdad3ad3d269[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 19:39:11 2026 +0530
+
+    added the os
+
+[33mcommit 5b921b23b5931108304705fe528e3d412a855d55[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 19:37:56 2026 +0530
+
+    added the set the bash as default
+
+[33mcommit 34ac1063bbba498ceae697d0b57fc5e06605fff1[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 21 19:26:07 2026 +0530
+
+    created the folder structure
+
+[33mcommit bca9e107c432f49aeafd79c5cf437f7a85b4eab3[m
+Merge: 24ee548 fe6fb0d
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 14 18:54:55 2026 +0530
+
+    Merge branch 'main' of https://github.com/SACHITH31/web_dev
+
+[33mcommit 24ee548f5786dd7842afccf8e76a7ef63fd019bb[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu May 14 18:54:23 2026 +0530
+
+    covered main math methods
+
+[33mcommit fe6fb0d6441540551a5ae21fe833826d5560e4e8[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Tue Mar 24 23:45:05 2026 +0530
+
+    Create DOM_Event_Bubbling_Capturing_Guide.md
+
+[33mcommit 9231730454fabbc45c74bcb5ca760f1c3e7cceff[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Tue Mar 24 23:44:32 2026 +0530
+
+    Create script_bubbling_and_capturing.js
+
+[33mcommit 178df2980188b9b27223684a9695f9eeb8c0f89b[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Tue Mar 24 23:43:15 2026 +0530
+
+    Create index.html
+
+[33mcommit 0725514912991ec334064969f0af5380c8383bcf[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Tue Mar 24 23:39:33 2026 +0530
+
+    Create script.js
+
+[33mcommit 2e0c7c4b19eca270a9847278a9226af6b1a4e169[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Tue Mar 24 23:39:09 2026 +0530
+
+    Create index_dom_events.html
+
+[33mcommit af02400e04f793ded32384faed8088ab346719be[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Tue Mar 24 23:37:32 2026 +0530
+
+    Create DOM_Events_Guide.md
+
+[33mcommit f298b8bcc28f6c50af66ded287853f2b68d54eda[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Mon Mar 23 21:42:32 2026 +0530
+
+    Create DOM_Events_Guide.md
+
+[33mcommit 45a6a0a0fae18df72573c60132287ecb43d01d16[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Mon Mar 23 21:42:01 2026 +0530
+
+    Create script.js
+
+[33mcommit 473498f17afbde7991bc66912dc2c9ae41157f95[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Mon Mar 23 21:41:29 2026 +0530
+
+    Create index_dom_events.html
+
+[33mcommit d118189296f583e77d6a7997b07267a383f41525[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Sun Mar 22 12:10:45 2026 +0530
+
+    completed learning of creating element using js
+
+[33mcommit 3c468eed917eaa71f2c47d308f66ac433b2c0272[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Sun Mar 22 11:51:23 2026 +0530
+
+    organised the folder structure
+
+[33mcommit f34719c4fa4191518de43950465c3e74ef27b418[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:56:13 2026 +0530
+
+    Update script_remove.js
+
+[33mcommit aa9f055d98fa781c5cf517b262dbc50a99dc5a53[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:53:57 2026 +0530
+
+    Create script_remove.js
+
+[33mcommit 647edc71824718bc760dff5dc79aa950022ee7c6[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:53:31 2026 +0530
+
+    Create index_remove.html
+
+[33mcommit d98dbbe5095be56f9d033b12d3abfea4eb3d0056[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:52:54 2026 +0530
+
+    Create DOM_Create_Elements_Guide.md
+
+[33mcommit 699361277daccb6bd4f66dcd73b285f425a2fd2c[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:51:54 2026 +0530
+
+    Create DOM_Insert_Elements_Guide.md
+
+[33mcommit 39a980073d2d2a13395f5cc2b69f3ac84e4f67bb[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:51:31 2026 +0530
+
+    Create script_insert.js
+
+[33mcommit a1611a6ef887aef144a2171d87ceeb77ec377f48[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:51:09 2026 +0530
+
+    Create index_insert.html
+
+[33mcommit 4ca9a880c5a1ab1c89e5f97539d4fad1c4548be0[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:50:28 2026 +0530
+
+    Create DOM_Remove_Elements_Guide.md
+
+[33mcommit 5d072cddc358a036fa740ce9b4cc109391e1ef41[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:48:53 2026 +0530
+
+    Create script.js
+
+[33mcommit aafe7f7eee3d870f1f4256e57bfc4848135d6455[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Fri Mar 20 22:48:32 2026 +0530
+
+    Create index.html
+
+[33mcommit 44a267f40037700d3d7b9369d4714f337df53d9c[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu Mar 19 13:45:33 2026 +0530
+
+    completed learning of accessing the siblings
+
+[33mcommit 110d06d25cab8aa288abff6730cf575b4a913046[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu Mar 19 13:37:07 2026 +0530
+
+    learned about accessing the childs
+
+[33mcommit 994c93b7bd238b478af9450db1c375cbf34fccd6[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu Mar 19 13:17:17 2026 +0530
+
+    completed the learning part of accessing the parent
+
+[33mcommit 7c32c2a14eb83d76ba631f1c6e532a0892ac83d1[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Thu Mar 19 12:55:32 2026 +0530
+
+    structured the folder structure
+
+[33mcommit e65e9659b22b22c5a03e0b35b4e5ba92f7eaa07d[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Wed Mar 18 21:59:51 2026 +0530
+
+    Create DOM_Create_Modify_Elements_Guide.md
+
+[33mcommit 4df2415703f28c66eb515ff0b6164ae8b078efb7[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Wed Mar 18 21:59:22 2026 +0530
+
+    Create dom_create_modify_elements.js
+
+[33mcommit 4ad87ea3570afe08152dd2d012e3d20a8bcbe13e[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Wed Mar 18 21:58:36 2026 +0530
+
+    Create dom_create_modify_elements.html
+
+[33mcommit 6730f153673179fea425701f1ce9f5d8f0a410ec[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Mon Mar 16 22:08:58 2026 +0530
+
+    Create DOM_Traversal_Guide.md
+
+[33mcommit d217ace9ff91834a3c151849b421afe756833c8b[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Mon Mar 16 22:08:30 2026 +0530
+
+    Create 7.2.js
+
+[33mcommit e4725aec24641c85359ad393f2a132715ddb0e4a[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Mon Mar 16 22:08:07 2026 +0530
+
+    Create 7.1.html
+
+[33mcommit 3f1f7e0ea7b7eadb8263f0d6e2cb914d4a8d8f0c[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Sun Mar 15 20:47:26 2026 +0530
+
+    added a folder
+
+[33mcommit d91080bcfb879fe335eaa7ea1e3cdf7db42ad7ad[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Sun Mar 15 20:17:12 2026 +0530
+
+    completed the how to apply the styles using the js
+
+[33mcommit 97f90cfaba35a0b4282b496b1175b92f08720080[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Sun Mar 15 20:07:47 2026 +0530
+
+    learned setattribute
+
+[33mcommit 270d373a5b54888f943c6ee933ae148bad95f6e2[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Sun Mar 15 20:01:11 2026 +0530
+
+    completed the getattribute
+
+[33mcommit 36bd9c411b913ccde8e3d47b7cd133b366edc135[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Sun Mar 15 19:47:37 2026 +0530
+
+    written about the attributes
+
+[33mcommit 0223782d7d94aaf53588dfd48df77b024ec93108[m
+Author: SACHITH <kasasachith@gmail.com>
+Date:   Sun Mar 15 19:13:51 2026 +0530
+
+    changed the folder structure for dom_text_properties
+
+[33mcommit 77b9cb04054a1de8b680e940e36249f4f0e4b7bd[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Sat Mar 14 21:46:21 2026 +0530
+
+    Create 22.3_dom_text_properties_guide.md
+
+[33mcommit 6a58d4df845d0122e097072e07564e8c0b46374f[m
+Author: Sachith Kasa <kasasachith@gmail.com>
+Date:   Sat Mar 14 21:45:30 2026 +0530
+
+    Create 22.2_script.js
