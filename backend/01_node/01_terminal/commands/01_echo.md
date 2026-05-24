@@ -71,3 +71,7 @@ Welcome to Node.js!
 
 ![echo prompt strings example](../assets/echo_ps.png)
 - here prompt strings are used to customize the appearance of the terminal prompt. In the above example is: `SACHITH@DESKTOP-F0N8OVB MINGW64 ~/Desktop/022/web_dev/backend (main) $ `
+
+- message from nano editor- thanks for using buddy
+- have a nice day buddy.......
+- another message..
